@@ -13,6 +13,14 @@ HoldFile is a high-performance web solution designed for seamless file uploading
 The network services are separated into distinct automated environments:
 - **Backend Service:** Runs isolated via Node-Alpine environments on internal Port `3000`.
 - **Frontend Service:** Bound to static Web Server distribution mapping standard client access over Port `8087`.
+  ---
+
+## 🛠️ Attributions & Development Process
+
+- **Application Logic (Frontend & Backend):** The core application features, database simulations, and clean UI/UX were generated and iteratively refined using advanced AI assistance (**ChatGPT**). This approach helped accelerate the development lifecycle of the application layer.
+- **DevOps, Containerization & Orchestration:** The entire infrastructure design, environment isolation, custom multi-stage `Dockerfile` configurations, and microservices orchestration via `docker-compose` were **fully designed, architected, and implemented manually from scratch by me**. 
+
+This repository serves as a practical demonstration of how modern AI engineering tools can be combined with expert infrastructure knowledge to deploy scalable, cloud-ready applications efficiently.
 
 ## 📦 Local Deployment Strategy
 
