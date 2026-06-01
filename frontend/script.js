@@ -1,4 +1,4 @@
-const API_URL = 'http://192.168.1.13:3000';
+const API_URL = 'http://localhost:3000';
 
 const fileInput = document.getElementById('fileInput');
 const dropZone = document.getElementById('dropZone');
