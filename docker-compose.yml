@@ -1,0 +1,16 @@
+services:
+ frontend:
+  build:
+   context: ./frontend
+   dockerfile: dockerfile
+  ports:
+   - "8087:80"
+  restart: unless-stopped
+ backend:
+  build:
+   context: ./backend
+   dockerfile: dockerfile
+  ports: 
+   - "3000:3000"
+  restart: unless-stopped
+

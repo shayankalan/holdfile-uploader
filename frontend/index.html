@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HoldFile</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>HoldFile</h1>
+
+        <p>
+            آپلود، دانلود و حذف فایل
+        </p>
+
+        <div class="drop-zone" id="dropZone">
+
+            <input
+                type="file"
+                id="fileInput"
+                multiple
+            >
+
+            <div class="drop-text">
+                <strong>فایل‌ها را اینجا رها کنید</strong>
+                <span>یا برای انتخاب کلیک کنید</span>
+            </div>
+
+        </div>
+
+        <div class="actions">
+
+            <button id="uploadBtn">
+                آپلود فایل‌ها
+            </button>
+
+            <button
+                id="refreshBtn"
+                class="secondary"
+            >
+                بروزرسانی
+            </button>
+
+        </div>
+
+        <div class="section">
+
+            <h2>
+                فایل‌های انتخاب شده
+            </h2>
+
+            <ul
+                id="selectedFiles"
+                class="file-list"
+            ></ul>
+
+        </div>
+
+        <div class="section">
+
+            <h2>
+                فایل‌های آپلود شده
+            </h2>
+
+            <ul
+                id="uploadedFiles"
+                class="file-list"
+            ></ul>
+
+        </div>
+
+        <div id="message" class="message"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
