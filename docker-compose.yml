@@ -4,7 +4,7 @@ services:
    context: ./frontend
    dockerfile: dockerfile
   ports:
-   - "8087:80"
+   - "8086:80"
   restart: unless-stopped
  backend:
   build:
